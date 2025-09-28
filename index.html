@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>EcoBazar</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/icon.svg"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="address-info">
+            <img src="./assets/logo/Map Pin.svg " alt="" />
+            <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+          </div>
+
+          <div class="language-info">
+            <a href="">Eng</a>
+            <a href="">USD</a>
+            <a href="">Sign In</a>
+            <img src="./assets/logo/arrow.svg" alt="" />
+            <a href="">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="navbar">
+      <div class="container">
+        <div class="navbar-wrapper">
+          <div class="logo-img">
+            <a href=""><img src="./assets/logo/Logo.svg" alt="" /></a>
+          </div>
+
+          <div class="navbar-search">
+            <input type="text" placeholder="Search" />
+            <button>Search</button>
+          </div>
+
+          <div class="navbar-cart">
+            <a href=""><img src="./assets/img/Heart.svg" alt="" /></a>
+            <div class="arrow-icon"></div>
+
+            <div class="cart-icon">
+              <a href="./Pop-up/EcoBazar (Pop-up)/pop.html"
+                ><img src="./assets/img/cart.svg" alt=""
+              /></a>
+              <div class="cart-info">
+                <p>Shopping cart:</p>
+                <p>$57.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="navbar-categories">
+      <div class="container">
+        <div class="navbar-categories-wrapper">
+          <div class="navbar-menu">
+            <a href="./index.html">Home</a>
+            <a href="./detail.html">Shop</a>
+            <a href="">Pages</a>
+            <a href="">Blog</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+          </div>
+
+          <div class="tel">
+            <img src="./assets/img/tel.svg" alt="" />
+            <a href="tel:(219) 555-0114">(219) 555-0114</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-sec">
+      <div class="container">
+        <div class="hero-bg">
+          <div class="hero-text">
+            <p>Welcome to shopery</p>
+            <h2>
+              Fresh & Healthy <br />
+              Organic Food
+            </h2>
+            <h3 class="sale-text">Sale up to <span>30% OFF</span></h3>
+            <h4 class="shipping">
+              Free shipping on all your order. we deliver, you enjoy
+            </h4>
+            <a href="./detail.html"
+              >Shop now <img src="./assets/img/arrow-right.svg" alt=""
+            /></a>
+          </div>
+
+          <div class="hero-img">
+            <img src="./assets/img/hero.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-sec">
+      <div class="container">
+        <div class="service-box">
+          <div class="free-ship">
+            <img src="./assets/img/delivery-truck 1.svg" alt="" />
+            <div class="service-wrap">
+              <p>Free Shipping</p>
+              <span>Free shipping on all your order</span>
+            </div>
+          </div>
+          <div class="free-ship">
+            <img src="./assets/img/headphones 1.svg" alt="" />
+            <div class="service-wrap">
+              <p>Free Shipping</p>
+              <span>Free shipping on all your order</span>
+            </div>
+          </div>
+          <div class="free-ship">
+            <img src="./assets/img/shopping-bag.svg" alt="" />
+            <div class="service-wrap">
+              <p>Free Shipping</p>
+              <span>Free shipping on all your order</span>
+            </div>
+          </div>
+          <div class="free-ship">
+            <img src="./assets/img/box.svg" alt="" />
+            <div class="service-wrap">
+              <p>Free Shipping</p>
+              <span>Free shipping on all your order</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="features">
+      <div class="container">
+        <div class="features-title">
+          <h2>Featured Products</h2>
+          <div>
+            <img src="./assets/img/Line.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="feature-product">
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/apple.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Apple</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/cappage.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Chanise Cabbage</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/lettuce.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Lettuce</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/chili.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Apple</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/corn.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Apple</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="features">
+      <div class="container">
+        <div class="features-title">
+          <h2>Featured Products</h2>
+          <div>
+            <img src="./assets/img/Line.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="feature-product"></div>
+      </div>
+    </section>
+
+    <section class="drinks-sec">
+      <div class="container">
+        <div class="drinks-wrap">
+          <div class="milk">
+            <div class="milk-text">
+              <h2>
+                100% Fresh <br />
+                Cow Milk
+              </h2>
+              <p>Starting at <span>$14.99</span></p>
+              <a href=""
+                >Shop Now <img src="./assets/img/arrow-right-green.svg" alt=""
+              /></a>
+            </div>
+            <img src="./assets/img/ad-1.svg" alt="" />
+          </div>
+          <div class="cola">
+            <div class="cola-text">
+              <p>Drink Sale</p>
+              <h2>
+                Water & <br />
+                Soft Drink
+              </h2>
+              <a href=""
+                >Shop Now <img src="./assets/img/arrow-right-green.svg" alt=""
+              /></a>
+            </div>
+            <img src="./assets/img/cola.svg" alt="" />
+          </div>
+          <div class="snack">
+            <div class="snack-text">
+              <p>100% Organic</p>
+              <h2>
+                Quick <br />
+                Breakfast
+              </h2>
+              <a href=""
+                >Shop Now <img src="./assets/img/arrow-right-green.svg" alt=""
+              /></a>
+            </div>
+            <img src="./assets/img/snack.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="countdown">
+      <div class="container">
+        <div class="countdown-wrap">
+          <div>
+            <img src="./assets/img/left-img.svg" alt="" />
+          </div>
+          <div>
+            <p>Best Deals</p>
+            <h2>Our Special Products Deal of the Month</h2>
+            <div class="clock-wrap">
+              <div>00</div>
+              <div>:</div>
+              <div>02</div>
+              <div>:</div>
+              <div>18</div>
+              <div>:</div>
+              <div>46</div>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/img/right.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="countdown">
+      <div class="container">
+        <div class="deal-section">
+          <img src="./assets/img/left-img.svg" alt="" />
+          <div class="deal-content">
+            <div class="best-deals">BEST DEALS</div>
+            <h1>
+              Our Special Products <br />
+              Deal of the Month
+            </h1>
+            <div class="countdown">
+              <div class="countdown-item">
+                <span>00</span>
+                <small>DAYS</small>
+              </div>
+              <div class="countdown-separator">:</div>
+              <div class="countdown-item">
+                <span>02</span>
+                <small>HOURS</small>
+              </div>
+              <div class="countdown-separator">:</div>
+              <div class="countdown-item">
+                <span>18</span>
+                <small>MINS</small>
+              </div>
+              <div class="countdown-separator">:</div>
+              <div class="countdown-item">
+                <span>46</span>
+                <small>SECS</small>
+              </div>
+            </div>
+            <a href="#" class="shop-btn">Shop now →</a>
+          </div>
+          <img src="./assets/img/right.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="new-product">
+      <div class="container">
+        <div class="product-title">
+          <h2>Newest Products</h2>
+          <a href="#(detailed page)"
+            >View All <img src="./assets/img/arrow-right-green.svg" alt=""
+          /></a>
+        </div>
+
+        <div class="feature-product">
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/orange.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Apple</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/cappage.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Chanise Cabbage</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/pineapple.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Lettuce</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/apple1.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Apple</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="fruits">
+            <div class="fruits-img">
+              <img src="./assets/img/corn.svg" alt="" />
+            </div>
+
+            <div class="product-wrap">
+              <div class="fruits-wrap">
+                <p>Green Apple</p>
+                <span>$14.99</span>
+
+                <div class="stars">
+                  <img src="./assets/img/stars.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="fruits-bag">
+                <a href="">
+                  <img src="./assets/img/Bag.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="clients-sec">
+      <div class="container">
+        <div class="clients-title">
+          <h2>What our Clients Says</h2>
+        </div>
+
+        <div class="clients-wrap">
+          <div class="clients-card">
+            <img src="./assets/img/column.svg" alt="" />
+            <p class="client-desc">
+              “Nam sed odio diam. Mauris sagittis sapien sed convallis cursus.
+              Proin mattis ultrices urna ac eleifend. Cras vel nisi nec lectus
+              sagittis venenatis. Curabitur laoreet leo sed lorem pulvina”
+            </p>
+            <div class="triangle"></div>
+
+            <div class="profile-img">
+              <img src="./assets/img/client1.svg" alt="" />
+              <p class="client-name">Jenny Wilson</p>
+              <p class="client-status">Customer</p>
+            </div>
+          </div>
+
+          <div class="clients-card">
+            <img src="./assets/img/column.svg" alt="" />
+            <p class="client-desc">
+              “Nam sed odio diam. Mauris sagittis sapien sed convallis cursus.
+              Proin mattis ultrices urna ac eleifend. Cras vel nisi nec lectus
+              sagittis venenatis. Curabitur laoreet leo sed lorem pulvina”
+            </p>
+            <div class="triangle"></div>
+
+            <div class="profile-img">
+              <img src="./assets/img/client3.svg" alt="" />
+              <p class="client-name">Jenny Wilson</p>
+              <p class="client-status">Customer</p>
+            </div>
+          </div>
+
+          <div class="clients-card">
+            <img src="./assets/img/column.svg" alt="" />
+            <p class="client-desc">
+              “Nam sed odio diam. Mauris sagittis sapien sed convallis cursus.
+              Proin mattis ultrices urna ac eleifend. Cras vel nisi nec lectus
+              sagittis venenatis. Curabitur laoreet leo sed lorem pulvina”
+            </p>
+            <div class="triangle"></div>
+
+            <div class="profile-img">
+              <img src="./assets/img/client1.svg" alt="" />
+              <p class="client-name">Jenny Wilson</p>
+              <p class="client-status">Customer</p>
+            </div>
+          </div>
+
+          <div class="clients-card">
+            <img src="./assets/img/column.svg" alt="" />
+            <p class="client-desc">
+              “Nam sed odio diam. Mauris sagittis sapien sed convallis cursus.
+              Proin mattis ultrices urna ac eleifend. Cras vel nisi nec lectus
+              sagittis venenatis. Curabitur laoreet leo sed lorem pulvina”
+            </p>
+            <div class="triangle"></div>
+            <div class="profile-img">
+              <img src="./assets/img/client2.svg" alt="" />
+              <p class="client-name">Guy Hawkins</p>
+              <p class="client-status">Customer</p>
+            </div>
+          </div>
+          <div class="clients-card">
+            <img src="./assets/img/column.svg" alt="" />
+            <p class="client-desc">
+              “Nam sed odio diam. Mauris sagittis sapien sed convallis cursus.
+              Proin mattis ultrices urna ac eleifend. Cras vel nisi nec lectus
+              sagittis venenatis. Curabitur laoreet leo sed lorem pulvina”
+            </p>
+            <div class="triangle"></div>
+            <div class="profile-img">
+              <img src="./assets/img/client3.svg" alt="" />
+              <p class="client-name">Kathryn Murphy</p>
+              <p class="client-status">Customer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-img">
+          <p>Video</p>
+          <h2>
+            We’re the Best Organic <br />
+            Farm in the World
+          </h2>
+          <div class="play-btn">
+            <div class="pause-btn">
+              <img src="./assets/img/pause-btn.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="clients-sec">
+      <div class="container">
+        <div class="clients-title">
+          <h2>What our Clients Says</h2>
+        </div>
+
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="clients-wrap">
+              <div class="clients-card">
+                <img src="./assets/img/column.svg" alt="" />
+                <p class="client-desc">
+                  “Mauris sagittis sapien sed convallis cursus.”
+                </p>
+                <div class="triangle"></div>
+                <div class="profile-img">
+                  <img src="./assets/img/client1.svg" alt="" />
+                  <p class="client-name">Jenny Wilson</p>
+                  <p class="client-status">Customer</p>
+                </div>
+              </div>
+
+              <div class="clients-card">
+                <img src="./assets/img/column.svg" alt="" />
+                <p class="client-desc">
+                  “Mauris sagittis sapien sed convallis cursus.”
+                </p>
+                <div class="triangle"></div>
+                <div class="profile-img">
+                  <img src="./assets/img/client1.svg" alt="" />
+                  <p class="client-name">Jenny Wilson</p>
+                  <p class="client-status">Customer</p>
+                </div>
+              </div>
+
+              <div class="clients-card">
+                <img src="./assets/img/column.svg" alt="" />
+                <p class="client-desc">
+                  “Proin mattis ultrices urna ac eleifend.”
+                </p>
+                <div class="triangle"></div>
+                <div class="profile-img">
+                  <img src="./assets/img/client3.svg" alt="" />
+                  <p class="client-name">Mark Henry</p>
+                  <p class="client-status">Customer</p>
+                </div>
+              </div>
+
+              <div class="clients-card">
+                <img src="./assets/img/column.svg" alt="" />
+                <p class="client-desc">
+                  “Cras vel nisi nec lectus sagittis venenatis.”
+                </p>
+                <div class="triangle"></div>
+                <div class="profile-img">
+                  <img src="./assets/img/client1.svg" alt="" />
+                  <p class="client-name">Sarah Smith</p>
+                  <p class="client-status">Customer</p>
+                </div>
+              </div>
+
+              <div class="clients-card">
+                <img src="./assets/img/column.svg" alt="" />
+                <p class="client-desc">
+                  “Curabitur laoreet leo sed lorem pulvina.”
+                </p>
+                <div class="triangle"></div>
+                <div class="profile-img">
+                  <img src="./assets/img/client2.svg" alt="" />
+                  <p class="client-name">Guy Hawkins</p>
+                  <p class="client-status">Customer</p>
+                </div>
+              </div>
+
+              <div class="clients-card">
+                <img src="./assets/img/column.svg" alt="" />
+                <p class="client-desc">
+                  “Nam sed odio diam. Mauris sagittis sed cursus.”
+                </p>
+                <div class="triangle"></div>
+                <div class="profile-img">
+                  <img src="./assets/img/client3.svg" alt="" />
+                  <p class="client-name">Kathryn Murphy</p>
+                  <p class="client-status">Customer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-buttons">
+            <button class="move-btn" id="prevBtn">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="move-btn" id="nextBtn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="video-img">
+          <p>Video</p>
+          <h2>
+            We’re the Best Organic <br />
+            Farm in the World
+          </h2>
+          <div class="play-btn">
+            <div class="pause-btn">
+              <img src="./assets/img/pause-btn.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-sec">
+      <div class="container">
+        <div class="news-title">
+          <h2>Latest News</h2>
+        </div>
+
+        <div class="card-wrap">
+          <div class="card" style="width: 25rem">
+            <img src="./assets/img/card1.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Curabitur porttitor orci eget neque accumsan venenatis.
+              </h5>
+              <p class="card-text">
+                Nulla libero lorem, euismod venenatis nibh sed, sodales dictum
+                ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu
+                neque..
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Read More <img src="./assets/img/arrow-right-green.svg" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 25rem">
+            <img src="./assets/img/card2.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Curabitur porttitor orci eget neque accumsan venenatis.
+              </h5>
+              <p class="card-text">
+                Nulla libero lorem, euismod venenatis nibh sed, sodales dictum
+                ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu
+                neque..
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Read More <img src="./assets/img/arrow-right-green.svg" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 25rem">
+            <img src="./assets/img/card3.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Curabitur porttitor orci eget neque accumsan venenatis.
+              </h5>
+              <p class="card-text">
+                Nulla libero lorem, euismod venenatis nibh sed, sodales dictum
+                ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu
+                neque..
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Read More <img src="./assets/img/arrow-right-green.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe-sec">
+      <div class="container">
+        <div class="sub-wrap">
+          <div class="sub-logo">
+            <a href="./index.html">
+              <img src="./assets/logo/Logo.svg" alt="" />
+            </a>
+          </div>
+
+          <div class="sub-text">
+            <h2>Subcribe our Newsletter</h2>
+            <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+          </div>
+
+          <div class="sub-btn">
+            <div class="flex items-center justify-center">
+              <div
+                class="flex w-[570px] h-[60px] rounded-full overflow-hidden shadow-sm"
+              >
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  class="flex-grow px-5 text-white-700 placeholder-white-400 focus:outline-none"
+                />
+                <button
+                  class="bg-green-500 text-white font-semibold px-8 rounded-full hover:bg-green-600 transition-colors duration-300 p-3"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-column">
+            <a href="./index.html">
+              <img src="./assets/logo/logo-footer.svg" alt="" />
+            </a>
+            <p>
+              Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
+              dui, eget bibendum magna congue nec.
+            </p>
+            <div class="contact-info">
+              <a href="tel:(219) 555-0114">(219) 555-0114</a>
+              <a href="mailto:proxy@gmail.com">Proxy@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>My Account</h3>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">Shopping Cart</a></li>
+              <li><a href="#">Wishlist</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Helps</h3>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Proxy</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Track Order</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="#">Fruit & Vegetables</a></li>
+              <li><a href="#">Meat & Fish</a></li>
+              <li><a href="#">Bread & Bakery</a></li>
+              <li><a href="#">Beauty & Health</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
+          <div class="payment-icons">
+            <img src="./assets/logo/ApplePay.svg" alt="Apple Pay" />
+            <img src="./assets/logo/visa-logo.svg" alt="Visa" />
+            <img src="./assets/logo/Discover.svg" alt="Discover" />
+            <img src="./assets/logo/Mastercard.svg" alt="MasterCard" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./carousel.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
