@@ -1,4 +1,3 @@
-// Product list
 const products = [
   {
     name: "Green Apple",
@@ -86,5 +85,3 @@ products.forEach((product) => {
   container.appendChild(fruitBox);
 });
 
-//New products//
-//--//
