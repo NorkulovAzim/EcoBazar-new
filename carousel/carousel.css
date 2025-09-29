@@ -28,7 +28,8 @@ body {
 }
 
 .card-list .card-item .card-link {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     display: block;
     background: #fff;
     padding: 18px;
@@ -38,11 +39,6 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: all linear 0.3s;
 }
-
-
-
-
-
 
 .card-list .card-item .card-link:hover {
     border-color: #00B207;
@@ -98,8 +94,8 @@ body {
 }
 
 .card-link .card-button {
-    width: 40px;
-    height: 40px;
+    user-select: none;
+    padding: 5px;
     border-radius: 50%;
     margin-top: 20px;
     background: none;
@@ -116,4 +112,53 @@ body {
     background: #00B207;
     color: #fff;
     border-color: #00B207;
+}
+
+
+.back {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    background-color: #00B207;
+    width: fit-content;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: #314e33;
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+}
+
+.swiper-horizontal {
+
+    &.swiper-rtl .swiper-button-prev,
+    &.swiper-rtl~.swiper-button-prev,
+    &~.swiper-button-next,
+    .swiper-button-next {
+        left: auto;
+        right: var(--swiper-navigation-sides-offset, 4px);
+        top: calc(45% - 20px);
+    }
+}
+
+.swiper-horizontal {
+
+    .swiper-button-next,
+    .swiper-button-prev,
+    ~.swiper-button-next,
+    ~.swiper-button-prev {
+        margin-left: 0;
+        margin-top: calc(0px - var(--swiper-navigation-size) / 2);
+        top: calc(45% - 20px);
+    }
 }
